@@ -1,0 +1,115 @@
+/*****************************/
+/* Main Navigation */
+/*****************************/
+
+.main-nav-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF0AE;
+    padding: 2rem 2rem;
+}
+.personal-brand-logo{
+    font-size: 1.8rem;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+.main-nav-items{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.main-nav-item-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.main-nav-item-list li:hover{
+    color: #FF6B6B;
+    transition: all .4s;
+}
+
+/*****************************/
+/* Hero Section */
+/*****************************/
+
+.hero-section{
+    padding-top: 4.8rem;
+    padding-bottom: 9.6rem;
+}
+
+.hero-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 70%;
+}
+
+.hero-button-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.download-cv-btn{
+    background: #FF6B6B;
+    color: #221556;
+}
+.hero-button-flex .download-cv-btn:hover{
+    color: #050606;
+}
+
+.get-in-touch-btn{
+    background: #32AE72;
+    color:#fff;
+}
+
+/*****************************/
+/* Skills Section */
+/*****************************/
+
+.skills-section{
+
+}
+
+.web-technology-skill-container{
+    background: #FFD8BE;
+}
+
+.ui-ux-skill-container{
+    background: #CFF4C8; 
+}
+
+.soft-skill-container{
+    background: #E5EFD7;
+}
+
+.skills-flex {
+
+}
+
+.skill-content{
+
+}
+
+.web-technology-icons-flex{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 4rem;
+}
+
+
+
+
+.web-technology-icons-flex i{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
